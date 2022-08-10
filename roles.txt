@@ -1,0 +1,113 @@
+For Floor: Not Allowed Electrical Engineer
+
+Form Fields:
+
+------ Window -------
+
+geometric_info : all fields allowed for all roles...
+glass_type: all fields for architect, mechanicalEng, desider
+
+identity_data: 
+fire_rating, cost (allowed for architect, artHistorian, desider, mechanicalEng)
+fire_type_image, keynote, model, manufacturer, type_comments, url, description (architect, artHistorian, desider, mechanicalEngineer, civilEng)
+
+analytical_properties: all fields (architect, desider, mechanicalEngineer)
+
+material_properties: 
+descriptive_info, production_info, annotation_info, graphics, appearance, physical (artHistorian, desider, architect, mechanicalEng, electricalEng)
+material_compressive_strength: (artHistorian, desider, architect, civilEng)
+thermal (artHistorian, desider, mechanicalEng)
+
+building_intervention: 
+repair_type, repair_comment, restoration_report, restoration_comment, change_type, change_comment (architect, artHistorian, desider, civilEng)
+repair_time, restoration_year, restoration_corporation, change_year (architect, artHistorian, desider)
+
+---------- Door --------------
+
+geometric_ info: all roles allowed for all fields
+door_type: all fields (architect, desider, mechanicalEng)
+
+identity_data: 
+fire_rating, cost (architect, artHistorian, Desider)
+type_image, keynote, model, manufacturer, type_comments, url, description (architect, artHistorian, desider, civilEngineer)
+
+analytical_properties: all fields (architect, desider, mechanicalEngineer)
+
+material_properties:
+descriptive_info, production_info, annotation_info, graphics, appearance, physical (artHistorian, desider, architect, mechanicalEng, electricalEng)
+material_compressive_strength (artHistorian, desider, architect, civilEng)
+thermal: (artHistorian, desider, mechanicalEng)
+
+building_intervention:
+repair_type, repair_comment, restoration_report, restoration_comment, change_type, change_comment (architect, artHistorian, desider, civilEng)
+repair_time, restoration_year, restoration_corporation, change_year (architect, artHistorian, desider)
+
+---------- Roof ---------------
+
+geo_info_roof_dimension: 
+all fields (all roles)
+
+roof_type
+thickness, resistance (architect, desider, mechanicalEng, civilEng)
+thermal_mass (architect, mechanicalEng, desider)
+material (architect, mechanicaEng, desider, artHistorian, civilEng)
+
+identity_data: all fields (architect, artHistorian, desider, civilEng)
+analytical_properties: all fields (architect, mechanicalEng, desider)
+
+material_properties:
+descriptive_info, production_info, annotation_info, graphics, appearance, physical (artHistorian, desider, architect, mechanicalEng)
+material_compressive_strength: (artHistorian, desider, architect, civilEng)
+thermal: (artHistorian, desider, mechanicalEng)
+
+building_intervention: 
+repair_type, repair_comment, restoration_report, restoration_comment, change_type, change_comment (architect, artHistorian, desider, civilEng)
+repair_time, restoration_year, restoration_corporation, change_year (architect, artHistorian, desider)
+
+-------------- Floor -------------
+geomatic_info_wall_dimension: (all except electrical eng for all fields)
+
+floor_type:
+thickness, material (architect, mechanicalEng, desider, civilEng, artHistorian)
+resistance (architect, mechanicalEng, desider, civilEng)
+thermal_mass (architect, mechanicalEng, desider)
+
+identity_data
+type_image, keynote, model, manufacturer, type_comments, url, description (architect, artHistorian, desider, civilEng)
+fire_rating, cost (architect, artHistorian, desider)
+
+analytical_properties: all fields (architect, mechanicalEng, desider)
+
+material_properties:
+descriptive_info, production_info, annotation_info, graphics, appearance, physical (artHistorian, desider, architect, mechanicalEng, civilEng)
+material_compressive_strength (artHistorian, desider, architect, civilEng)
+thermal (artHistorian, desider, mechanicalEng)
+
+building_intevrention:
+repair_type, repair_comment, restoration_report, restoration_comment, change_type, change_comment (architect, desider, artHistorian, civilEng)
+repair_time, restoration_year, restoration_corporation, change_year (architect, artHistorian, desider)
+
+-------------- Wall --------------
+
+geo_info_wall_dimension: all fields for all role
+
+wall_type: all fields (architect, mechanicalEng, desider)
+
+wall_identity_data: all fields (architect, mechanicalEng, artHistorian, desider)
+
+analytical_properties: all fields (architect, mechanicalEng, desider)
+
+material_properties: 
+descriptive_info, annotation_info, graphics, appearance, physical (architect, desider)
+production_info (architect, desider, artHistorian)
+material_compressive_strength: (civilEng, architect, desider)
+thermal: (desider, mechanicalEng)
+
+wall_structural_info: all fields (civilEng, architect, desider)
+
+building_intervention:
+repair_time, restoration_year, restoration_corporation, change_year (architect, artHistorian, desider)
+repair_type, repair_comment, restoraton_report, restoration_comment, change_type, change_comment (architect, desider, artHistorian, civilEng)
+
+
+ 
